@@ -1,22 +1,48 @@
 * {box-sizing:border-box}
 
-body {background-color: #702636;
+body {background-image: url(image/floral.jpg);
 margin: 50px;
 }
+
+p {font-size: 18px;
+    color: rgba(255, 255, 255, 0.6);
+    }
 
 h1 {color: #B2B4A8;
 text-shadow: white 0 0 2px;
 font-family: 'Courier New', Courier, monospace;
-margin-bottom: 0;}
+margin-bottom: 0;
+font-size: 35px;}
 
-.title p {color:rgba(255, 255, 255, 0.6);
+.title p {
 margin-top: 0;}
 
 .title {text-align: center;
-border: 5px solid #963333;
+border: 5px solid #000000;
 padding:40px 40px;
 max-width: 600px;
-margin: 50px auto;}
+margin: 50px auto;
+background-color: #702636;}
 
-img {max-width: 600px;
+img {max-width: 400px;
+display:block;
+margin:40px auto 0;
+border: 5px solid #000000;
+border-radius: 50%;}
+
+img:hover {border-radius: 0%;
+transition: 0.5s;}
+
+.image p {
+max-width: 400px;
+margin: 5px auto 40px;
+color:black;
+background-color: #B2B4A8;
 }
+
+.image {text-align: justify;
+background-color: #B2B4A899 ;
+max-width: 600px;
+margin:auto;
+padding: 40px}
+

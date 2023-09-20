@@ -1,18 +1,23 @@
 * {box-sizing:border-box}
 
-body {background-image: url(image/floral.jpg);
-margin: 50px;
-}
+body {margin: 0 50px;
+background-color: #702636;}
+
+.bg {background-image: url(image/collage.jpg);
+    background-size: 700px auto;
+padding: 50px 0;
+background-attachment: fixed;}
 
 p {font-size: 18px;
     color: rgba(255, 255, 255, 0.6);
+    font-family: Arial, Helvetica, sans-serif;
     }
 
 h1 {color: #B2B4A8;
 text-shadow: white 0 0 2px;
-font-family: 'Courier New', Courier, monospace;
+font-family: Arial, Helvetica, sans-serif;
 margin-bottom: 0;
-font-size: 35px;}
+font-size: 37px;}
 
 .title p {
 margin-top: 0;}
@@ -21,10 +26,11 @@ margin-top: 0;}
 border: 5px solid #000000;
 padding:40px 40px;
 max-width: 600px;
-margin: 50px auto;
+margin: 0 auto 50px;
 background-color: #702636;}
 
 img {max-width: 400px;
+    width: auto;
 display:block;
 margin:40px auto 0;
 border: 5px solid #000000;
@@ -45,4 +51,36 @@ background-color: #B2B4A899 ;
 max-width: 600px;
 margin:auto;
 padding: 40px}
+
+h2 {font-family: Arial, Helvetica, sans-serif;
+color: #B2B4A8;
+text-shadow: white 0 0 2px;
+font-size: 33px;
+margin-top: 0;
+text-align: center;}
+
+.list {margin-top: 30px;
+margin-bottom: 0}
+
+li {list-style-type: none;
+margin: 5px;
+text-align: center;}
+
+a {text-decoration: none;
+color: #B2B4A8;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+padding:2px;}
+
+a:hover {background-color: #000000;
+transition: 0.5s;
+text-shadow: white 0 0 5px;}
+
+.link {
+background-color: #702636;
+border:5px solid black;
+margin: 50px auto 0;
+max-width: 350px;
+padding:20px;
+border-radius: 10%;}
 

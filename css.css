@@ -1,56 +1,47 @@
 * {box-sizing:border-box}
 
-body {margin: 0 50px;
-background-color: #702636;}
+body {padding:50px;
+    background-image: url(image/collage.jpg);
+background-attachment: fixed;
+background-repeat: repeat;
+background-size: 850px;}
 
-.bg {background-image: url(image/collage.jpg);
-    background-size: 700px auto;
-padding: 50px 0;
-background-attachment: fixed;}
+.top {display: flex;
+justify-content:space-between;
+gap:50px}
 
-p {font-size: 18px;
-    color: rgba(255, 255, 255, 0.6);
-    font-family: Arial, Helvetica, sans-serif;
-    }
+.infocard, .presentation {background-size: 100px;
+    background: url(image/cakefonce.jpg);}
 
-h1 {color: #B2B4A8;
-text-shadow: white 0 0 2px;
-font-family: Arial, Helvetica, sans-serif;
-margin-bottom: 0;
-font-size: 37px;}
+.infocard {width:500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding:25px;
+color: rgb(185, 29, 29);}
 
-.title p {
-margin-top: 0;}
+#ama {display: flex;
+flex-direction: column;
+justify-content: flex-start;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight:100;
+font-size: 35px;}
 
-.title {text-align: center;
-border: 5px solid #000000;
-padding:40px 40px;
-max-width: 600px;
-margin: 0 auto 50px;
-background-color: #702636;}
+.presentation {
+flex-grow: 1;
+padding: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
-img {max-width: 400px;
-    width: auto;
-display:block;
-margin:40px auto 0;
-border: 5px solid #000000;
-border-radius: 50%;}
+.presentation h1 {color: rgb(185, 29, 29);
+font-size: 35px;}
 
-img:hover {border-radius: 0%;
-transition: 0.5s;}
+img {width: 200px;
+border-radius: 100%;}
 
-.image p {
-max-width: 400px;
-margin: 5px auto 40px;
-color:black;
-background-color: #B2B4A8;
-}
 
-.image {text-align: justify;
-background-color: #B2B4A899 ;
-max-width: 600px;
-margin:auto;
-padding: 40px}
+h1 {margin: 0;}
+
 
 h2 {font-family: Arial, Helvetica, sans-serif;
 color: #B2B4A8;
@@ -59,8 +50,8 @@ font-size: 33px;
 margin-top: 0;
 text-align: center;}
 
-.list {margin-top: 30px;
-margin-bottom: 0}
+.list {margin:0;
+padding: 0;}
 
 li {list-style-type: none;
 margin: 5px;

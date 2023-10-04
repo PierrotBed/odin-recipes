@@ -1,7 +1,7 @@
 * {box-sizing:border-box}
 
 body {padding:50px;
-    background-image: url(image/redcollage.jpg);
+    background-image: url(image/collage.jpg);
 background-attachment: fixed;
 background-repeat: repeat;
 background-size: 850px;
@@ -32,7 +32,7 @@ box-shadow: 0 0 8px 5px rgb(58, 46, 35) inset;}
 #ama {display: flex;
 flex-direction: column;
 justify-content: flex-start;
-font-family:fantasy;
+font-family: MedievalSharp;
 font-size: 30px;
 margin-top: 30px;}
 
@@ -67,12 +67,7 @@ align-items: center;
 
 .link-title {font-size: 35px;}
 
-ul {margin: 0;
-padding: 0;
-list-style-type: none;
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-gap: 50px;}
 a {text-decoration: none;}
+
+a img {width:100px}
 

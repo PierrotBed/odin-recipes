@@ -12,6 +12,8 @@ background-size: 850px;
     justify-content: space-between;
 gap: 50px;}
 
+/* top part */
+
 .top {display: flex;
 justify-content:space-between;
 gap:50px}
@@ -39,21 +41,28 @@ margin-top: 30px;}
 .presentation {
 flex-grow: 1;
 padding: 25px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: Georgia, 'Times New Roman', Times, serif;
 background: url(image/cakepresentation.png);
 box-shadow: 0 0 8px 5px rgb(58, 46, 35) inset;}
 
 .presentation h1 {
 font-size: 35px;
-text-shadow: 0 0 2px rgb(73, 0, 0);
-font-family: fantasy;}
+text-shadow: 0 0 2px rgb(255, 56, 56);
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(250, 244, 224);}
+
+.presentation p {font-size: 25px;
+color: rgb(250, 244, 224);
+text-align: justify;}
 
 .infocard img {width: 200px;
 border-radius: 100%;
-box-shadow: 0 0 5px rgb(185, 29, 29);}
+box-shadow: 0 0 5px rgb(58, 46, 35);}
 
 
 h1 {margin: 0;}
+
+/* bottom part */
 
 .link {
 display: flex;
@@ -65,9 +74,24 @@ justify-content: space-between;
 align-items: center;
 }
 
-.link-title {font-size: 35px;}
+.link-title {font-size: 35px;
+margin-bottom: 50px;
+color: rgb(250, 244, 224);
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-shadow: 0 0 2px rgb(255, 56, 56)
+}
 
-a {text-decoration: none;}
+a {text-decoration: none;
+color: black;}
 
-a img {width:100px}
+.recipe img {width:100px;
+margin-top: 12.5px;}
+
+.alink {display: flex;
+align-items: flex-start;
+justify-content: space-between;
+width: 100%;}
+
+.recipe {display: flex;
+flex-direction: column;}
 

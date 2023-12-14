@@ -2,17 +2,14 @@
 
 body {margin: 0;}
 
-.bg {background-image: url(image/fondeditrecette.png);
-box-shadow: 0 0 5px rgb(26, 22, 18);
-background-size:contain;
-border-bottom: 2px solid black;}
+.bg {background-color: rgb(22, 22, 21);}
 
 
 /* header links */
 .header {display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 25px 100px;}
+padding: 25px 150px;}
 
 .name {color: rgb(185, 29, 29);
 text-shadow: 0 0 2px #fc5757;
@@ -32,7 +29,7 @@ font-size: 16px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 a {text-decoration: none;
-color: black;}
+color: rgb(236, 236, 236);}
 a:hover {color: rgb(185, 29, 29);}
 
 
@@ -43,26 +40,23 @@ justify-content: space-between;
 align-items: center;
 gap: 50px;}
 
-.aboutme img {width: 200px;
-border-radius: 5px;
-box-shadow: 0 0 5px rgb(29, 25, 21);}
+.aboutme img {width: 300px;}
 
 .texttitre {display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
-font-family: Georgia, 'Times New Roman', Times, serif;
-color: black;
-background-color: rgba(200,189,169, 0.5);
-border-radius: 5px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(236, 236, 236);
 padding: 10px;}
 
-.titre {font-size: 35px;
+.titre {font-size: 40px;
 margin-bottom: 20px;
 font-weight: bold;
 text-align: right;
-align-self: flex-end;}
+align-self: flex-end;
+text-shadow: 0 0 2px #ffffff;}
 
 .text {font-size: 20px;
 text-align: justify;}
@@ -74,43 +68,42 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 50px;
-background-color: rgb(200,189,169);
-padding: 25px 100px;
-border-bottom:2px solid black;
+background-image: url(image/dirty-white.jpg);
+padding: 50px 100px;
 }
 
 .recipetitle {font-size: 35px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-background-image: url(image/fondeditrecette.png);
-background-size: cover;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
 padding: 10px;
-border-radius: 5px;
-box-shadow: 0 0 5px rgb(29, 25, 21);}
+text-shadow: 0 0 2px black;}
 
 .linkrecidiv {display: flex;
 justify-content: center;
 align-items: center;
 gap: 100px;
+font-size: 25px;
 }
 .cakeimg {width:150px;
 height: 150px;
 object-fit: contain;
 }
 
-.linkr {background-image: url(image/fondeditrecette.png);
-background-size: cover;
+.linkr {
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 10px;
 gap: 10px;
-border-radius: 5px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: center;
-box-shadow: 0 0 5px rgb(29, 25, 21);}
-.linkcaption {background-color: rgb(200,189,169);
-padding: 2px;}
+color: black;
+background-color: rgba(78, 31, 248, 0.274);
+width: 200px;
+height: 250px;
+padding: 10px;
+}
+.linkcaption {}
 
 
 /* contact me sect */

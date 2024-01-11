@@ -11,8 +11,7 @@ background-attachment: fixed;}
 justify-content: space-between;
 align-items: center;
 padding: 25px 150px;
-background-color: rgb(10, 10, 10);
-}
+background-color: rgb(10, 10, 10);}
 
 .name {color: rgb(185, 29, 29);
 text-shadow: 0 0 2px #fc5757;
@@ -49,22 +48,18 @@ color: rgb(236, 236, 236);}
 
 
 
-/* intro recipes */
-
-.recipes-intro {background-color: rgb(10, 10, 10);
-margin-top: 500px;
-display: flex;
-flex-direction: column;
-}
+/* intro text */
 
 .gif {width: 150px;
 }
-.intro-gif {display: flex;
+.intro-gif {background-color: rgb(10, 10, 10);
+    margin: 500px 10px 0;
+    display: flex;
 justify-content: space-between;
 align-items: center;
 color: rgb(236, 236, 236);
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-margin: 25px 150px;
+padding: 50px;
 }
 .intro {display: flex;
 flex-direction: column;
@@ -78,19 +73,34 @@ align-self: flex-start;
 text-align: justify;
 }
 
-.photo-link {width: 150px;
-height: 150px;
+/* latest creation */
+.latest-creation {background-color: rgb(10, 10, 10);
+margin: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px;
+}
+.title-selection {align-self: flex-start;
+font-size: 40px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(236, 236, 236);
+margin-bottom: 50px;}
+
+.photo-link {width: 200px;
+height: 200px;
+object-fit: cover;
 }
 .recipe-selection {display: flex;
-justify-content: space-between;
-align-items: center;
-margin: 0 200px 25px;
+    justify-content: center;
 background-image: url(image/vert.png);
 background-size: 400px;
-padding: 20px;
+padding: 40px;
+width: 100vw;
+gap: 15px;
+flex-wrap: wrap;
 }
 .link-recipe {display: flex;
-flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 5px;
@@ -98,11 +108,13 @@ color: rgb(236, 236, 236);
 font-size: 20px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.title-link {background-color: rgb(10, 10, 10);
+.title-descri-link {display: block;
+background-color: rgb(10, 10, 10);
 padding: 5px;
 }
+.title-link {font-size: 25px;
+margin-bottom: 5px;}
 
 .all-recipe {align-self: center;
 font-size: 35px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-margin: 25px 150px;}
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}

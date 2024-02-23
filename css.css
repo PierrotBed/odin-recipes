@@ -3,7 +3,6 @@
 body {margin: 0;
 background-image: url(image/douille-costco.jpeg);
 background-size: 500px;
-background-color: rgb(236, 236, 236);
 background-attachment: fixed;}
 html, body {scroll-behavior: smooth;}
 
@@ -13,7 +12,7 @@ html, body {scroll-behavior: smooth;}
 justify-content: space-between;
 align-items: center;
 padding: 25px 150px;
-background-color: rgb(10, 10, 10);
+background-color: #f3f3e5;
 }
 
 .name {color: rgb(185, 29, 29);
@@ -34,7 +33,7 @@ font-size: 20px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 a {text-decoration: none;
-color: rgb(236, 236, 236);}
+color: black;}
 a:hover {color: rgb(185, 29, 29);}
 
 .dropdown-recipes {
@@ -46,7 +45,7 @@ background-color: rgb(10, 10, 10);}
 flex-direction: column;
 }
 .drop-elements {margin-bottom: 10px;
-color: rgb(236, 236, 236);}
+color: #f3f3e5;}
 .drop-elements:hover {color: rgb(200, 188, 247)}
 
 /* enjoy your meal */
@@ -55,6 +54,10 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin: 250px 100px;
 text-align: center;
 font-weight: bold;}
+.borderenjoy {background-color: #f3f3e5;
+width: 97px;}
+.enjoythree {display: flex;
+justify-content: space-between;}
 
 
 
@@ -62,12 +65,11 @@ font-weight: bold;}
 
 .gif {width: 150px;
 }
-.intro-gif {background-color: rgb(10, 10, 10);
-    margin: 250px 10px 0;
+.intro-gif {background-color: #f3f3e5;
     display: flex;
 justify-content: space-between;
 align-items: center;
-color: rgb(236, 236, 236);
+color: black;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 padding: 50px;
 gap: 50px;
@@ -81,14 +83,14 @@ gap: 5px;
 .title-intro {font-size: 35px;
 align-self: flex-start;
 font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .text-intro {font-size: 30px;
 text-align: justify;
 }
 
 /* latest creation */
-.latest-creation {background-color: rgb(10, 10, 10);
-margin: 10px;
+.latest-creation {background-color: #f3f3e5;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -96,9 +98,10 @@ padding: 50px;
 }
 .title-selection {align-self: flex-start;
 font-size: 40px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: rgb(236, 236, 236);
-margin-bottom: 50px;}
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: black;
+margin-bottom: 50px;
+font-weight: bold;}
 
 .photo-link {width: 200px;
 height: 200px;
@@ -140,7 +143,6 @@ padding: 5px;
 
 /* social media */
 .media {background-color: black;
-margin-top: 10px;
 color: rgb(236, 236, 236);
 padding: 50px;
 display: flex;

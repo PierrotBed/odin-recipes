@@ -3,7 +3,8 @@
 body {margin: 0;
 background-image: url(image/strawberry_whitecake.jpeg);
 /* background-size: 1100px; */
-background-attachment: fixed;}
+/* background-attachment: fixed; */
+}
 html, body {scroll-behavior: smooth;}
 
 
@@ -11,19 +12,20 @@ html, body {scroll-behavior: smooth;}
 .header {display: flex;
 justify-content: center;
 align-items: center;
+gap:100px;
 padding: 20px;
-background-color: #f3f3e5;
+background-color: black;
 }
 .titros {font-size: 20px;
 display: flex;
 flex-direction: column;
 align-items: center;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-border: black 1px solid;
 padding: 20px;
 height: 111px;
 width: auto;
 justify-content: center;
+color:rgb(119, 17, 17)
 }
 .name {color: rgb(185, 29, 29);
 text-shadow: 0 0 2px #fc5757;
@@ -32,12 +34,11 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-weight: bold;}
 
 ul {margin: 0;
-padding: 20px;
+padding: 0;
 display: flex;
 justify-content: center;
 align-items: center;
 gap: 50px;
-border: black 1px solid;
 height: 111px;
 width: auto;
 }
@@ -47,14 +48,14 @@ font-size: 20px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 a {text-decoration: none;
-color: black;}
-a:hover {color: rgb(185, 29, 29);}
+color: #f3f3e5;}
+li a:hover {color: rgb(185, 29, 29);}
 
 .dropdown-recipes {
     display: none;
     position: absolute;
 padding: 15px 10px 0;
-background-color: rgb(10, 10, 10);}
+background-color: black}
 #drop-recipes:hover .dropdown-recipes {display: flex;
 flex-direction: column;
 }
@@ -79,20 +80,24 @@ justify-content: space-between;} */
 
 .gif {width: 150px;
 }
-.intro-gif {background-color: #f3f3e5;
-    display: flex;
-justify-content: space-between;
+.intro-gif {background-color: black;
+display: flex;
+justify-content: center;
 align-items: center;
 color: black;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-padding: 50px;
-gap: 50px;
+padding: 40px;
+gap: 20px;
 }
 .intro {display: flex;
 flex-direction: column;
 justify-content: center;
 align-self: center;
 gap: 5px;
+max-width: 1111px;
+background-color: #f3f3e5;
+padding :40px;
+outline: #f3f3e5 5px dashed;
 }
 .title-intro {font-size: 35px;
 align-self: flex-start;

@@ -65,4 +65,19 @@ margin: 10px 222px;}
 .path-link:hover {color: rgb(185, 29, 29);}
 .path-recipe {text-decoration: underline;
 }
+
+/* DESERT */
+.section-recipe {background-color: black;
+margin: 40px 200px;
+padding: 22px;
+}
+.pic-category img {width:150px;
+height: 150px;
+object-fit: cover;
+}
+.category-section {display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 22px;
+}
     

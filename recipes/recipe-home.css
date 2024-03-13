@@ -1,7 +1,8 @@
 * {box-sizing:border-box}
 
 body {margin: 0;
-    background-color: rgb(200, 188, 247);
+    background-image: url(../image/orange.png);
+    background-size: 900px;
 }
 html, body {scroll-behavior: smooth;}
 
@@ -40,7 +41,7 @@ html, body {scroll-behavior: smooth;}
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
     
-    a {text-decoration: none;
+    .header a {text-decoration: none;
     color: #f3f3e5;}
     li a:hover {color: rgb(185, 29, 29);}
     
@@ -70,14 +71,23 @@ margin: 10px 222px;}
 .section-recipe {background-color: black;
 margin: 40px 200px;
 padding: 22px;
+font-size: 35px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+outline: black 5px dashed;
 }
-.pic-category img {width:150px;
-height: 150px;
+.pic-category img {width:200px;
+height: 200px;
 object-fit: cover;
 }
 .category-section {display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 22px;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 22px;
 }
+.section-recipe a {text-decoration: none;
+color: rgb(200, 188, 247);}
+.category a {color: #f3f3e5;}
     

@@ -80,24 +80,30 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-padding: 145px;
-gap: 145px;
+padding: 111px;
+gap: 111px;
 }
 .intro {display: flex;
 flex-direction: column;
 justify-content: center;
 align-self: center;
-gap: 5px;
-max-width: 1111px;
+gap: 10px;
+max-width: 999px;
 color:black;
+/* background-color: #f3f3e5;
+padding: 10px; */
 }
 .title-intro {font-size: 35px;
 align-self: flex-start;
 font-weight: bold;
 font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: #f3f3e5;
+padding:10px;
 }
 .text-intro {font-size: 30px;
 text-align: justify;
+background-color: #f3f3e5;
+padding:10px;
 }
 
 /* latest creation */
@@ -105,13 +111,13 @@ text-align: justify;
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 100px;
+padding: 55px;
 }
 .title-selection {align-self: center;
 font-size: 40px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 color:#f3f3e5;
-margin-bottom: 50px;
+margin-bottom: 111px;
 font-weight: bold;}
 
 .photo-link {width: 200px;
@@ -120,12 +126,10 @@ object-fit: cover;
 }
 .recipe-selection {display: flex;
     justify-content: space-between;
-/* background-image: url(image/orange.png); */
-background-size: 400px;
-padding: 40px;
 width: 100vw;
-gap: 40px;
+gap: 55px;
 flex-wrap: wrap;
+padding: 0 111px 0;
 }
 .link-recipe {display: flex;
 justify-content: center;
@@ -135,27 +139,33 @@ color: rgb(236, 236, 236);
 font-size: 20px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.title-descri-link {display: block;
-background-color: rgb(10, 10, 10);
-padding: 5px;
+.title-descri-link {display: flex;
+    flex-direction: column;
 }
 .title-link {font-size: 25px;
-margin-bottom: 5px;}
+margin-bottom: 5px;
+background-color: black;
+padding: 5px;
+margin-bottom: 5px;
+align-self: flex-start;}
+.descri-link {background-color: black;
+    padding: 5px;}
 
 .all-recipe {align-self: center;
 font-size: 35px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-margin-top: 50px;
+margin-top: 111px;
 background-color: rgb(236, 236, 236);
 color: rgb(10, 10, 10);
 padding: 5px;
 }
-.all-recipe:hover {background-color: rgb(200, 188, 247);}
+.all-recipe:hover {background-color: rgb(132, 142, 172);
+color:#e7e776}
 
 /* social media */
-.media {background-color: black;
+.media {background-color: rgb(132, 142, 172);
 color: rgb(236, 236, 236);
-padding: 50px;
+padding: 55px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -184,7 +194,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 color: rgb(236, 236, 236);
-padding: 50px 0;}
+padding: 55px 0;}
 
 .nl-title-descri {text-align: center;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -214,7 +224,7 @@ color: rgb(236, 236, 236);
 }
 
 .red-arrow {background-color: black;
-    padding: 50px 0 100px;
+    padding-bottom: 55px;
 }
 .red-arrow img {width: 50px;
 transform: rotate(180deg);

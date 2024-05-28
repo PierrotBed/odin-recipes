@@ -1,7 +1,7 @@
 * {box-sizing:border-box}
 
 body {margin: 0;
-    background-image: url(../image/orange.png);
+    background-image: url(../image/vert.png);
     background-size: 900px;
 }
 html, body {scroll-behavior: smooth;}
@@ -12,7 +12,7 @@ html, body {scroll-behavior: smooth;}
     align-items: center;
     gap:100px;
     padding: 5px;
-    background-color: black;
+    background-color: rgb(132, 142, 172);
     }
     .titros {font-size: 20px;
     display: flex;
@@ -42,20 +42,20 @@ html, body {scroll-behavior: smooth;}
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
     
     .header a {text-decoration: none;
-    color: #f3f3e5;}
+    color: #e7e776;}
     li a:hover {color: rgb(185, 29, 29);}
     
     .dropdown-recipes {
         display: none;
         position: absolute;
     padding: 15px 10px 0;
-    background-color: black}
+    background-color: rgb(132, 142, 172)}
     #drop-recipes:hover .dropdown-recipes {display: flex;
     flex-direction: column;
     }
     .drop-elements {margin-bottom: 10px;
     color: #f3f3e5;}
-    .drop-elements:hover {color: rgb(200, 188, 247)}
+    .drop-elements:hover {color: black}
 
     /* PATH */
 .path {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -68,26 +68,37 @@ margin: 10px 222px;}
 }
 
 /* DESERT */
-.section-recipe {background-color: black;
+.section-recipe {background-color: rgb(228, 222, 175);
 margin: 40px 200px;
-padding: 22px;
+padding: 20px;
 font-size: 35px;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-outline: black 5px dashed;
 }
-.pic-category img {width:200px;
-height: 200px;
+.pic-category img {width:150px;
+height: 150px;
 object-fit: cover;
 }
 .category-section {display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 22px;
+    margin-top: 20px;
     font-size: 28px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    gap: 22px;
+    gap: 44px;
+    text-align: center;
 }
 .section-recipe a {text-decoration: none;
-color: rgb(200, 188, 247);}
-.category a {color: #f3f3e5;}
-    
+color: black;
+font-weight: bold;
+}
+.title {background-color:#f3f3e5;
+padding: 5px;
+display:inline-block;}
+.category a {color: rgb(185, 29, 29);
+}
+
+
+.category:hover {text-shadow: rgb(185, 29, 29) 0 0 5px;}
+
+/* VEGAN */
+    .vegan {background-color: rgb(179, 228, 175);}

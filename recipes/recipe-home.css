@@ -68,7 +68,7 @@ margin: 10px 222px;}
 }
 
 /* DESERT */
-.section-recipe {background-color: rgb(228, 222, 175);
+.section-recipe {background-color: white;
 margin: 40px 200px;
 padding: 20px;
 font-size: 35px;
@@ -101,4 +101,3 @@ display:inline-block;}
 .category:hover {text-shadow: rgb(185, 29, 29) 0 0 5px;}
 
 /* VEGAN */
-    .vegan {background-color: rgb(179, 228, 175);}
